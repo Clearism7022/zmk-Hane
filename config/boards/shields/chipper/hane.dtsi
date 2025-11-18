@@ -35,6 +35,7 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5)  RC(3,0) RC(3,1) RC(3,2) RC(3,3)
 			, <&gpio0 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>     //Row1
 			, <&gpio0 28 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>    //Row2
 			, <&gpio0 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>    //Row3
+			, <&gpio0 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>     //Row4
 			;
 		
 	};
